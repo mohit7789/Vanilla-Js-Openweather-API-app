@@ -51,4 +51,4 @@ let weather = {
       }
     });
   
-  weather.fetchWeather("PARIS");
+  weather.fetchWeather("San francisco");
