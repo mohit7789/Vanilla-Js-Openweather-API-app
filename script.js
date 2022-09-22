@@ -10,7 +10,7 @@ let weather = {
         .then((response) => {
           if (!response.ok) {
             alert("No weather found.");
-            throw new Error("No weather found.");
+            throw new Error("Only earth weather updates.");
           }
           return response.json();
         })
@@ -51,4 +51,4 @@ let weather = {
       }
     });
   
-  weather.fetchWeather("Los angeles");
+  weather.fetchWeather("Vatican City");
