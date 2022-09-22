@@ -51,4 +51,4 @@ let weather = {
       }
     });
   
-  weather.fetchWeather("San francisco");
+  weather.fetchWeather("Los angeles");
